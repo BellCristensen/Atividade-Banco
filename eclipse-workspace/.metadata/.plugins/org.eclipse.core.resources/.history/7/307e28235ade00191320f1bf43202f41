@@ -1,0 +1,22 @@
+public class Media {
+	
+	String aluno;
+	String disciplina;
+	String curso;
+	int serie;
+	double nota;
+	double inserirNota1;
+
+	void inserirNota1 (double valor) {
+		this.nota =+ nota;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

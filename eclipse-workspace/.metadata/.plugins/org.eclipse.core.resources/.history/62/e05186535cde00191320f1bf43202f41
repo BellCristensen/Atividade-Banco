@@ -1,0 +1,32 @@
+public class Principal {
+
+	public static void main(String[] args) {
+		
+	Media MediaAluno1 = new Media();
+	MediaAluno1.nome = "Anderson";
+	MediaAluno1.disciplina = "LTP IV";
+	MediaAluno1.curso = "ADS";
+	MediaAluno1.serie = 4;
+	
+	
+	MediaAluno1.nota = 0;
+	/**---------------------------------------------------------------------------*/
+	
+	MediaAluno1.inserirNota(1.5);
+	System.out.println("O aluno: " + MediaAluno1.nome + "\n Cursando: " + MediaAluno1.curso + " na disciplina: " + MediaAluno1.disciplina);
+	System.out.println("Nota da Avaliação: " + MediaAluno1.nota);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}

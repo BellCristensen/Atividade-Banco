@@ -1,0 +1,6 @@
+public class CalcularMedia {
+
+	void Calcular ( double notaAnderson, double notaJoaquim,  double notaJoao, double notaMaria) {
+		
+	}
+}

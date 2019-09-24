@@ -1,0 +1,8 @@
+public class CalcularMedia {
+
+	void Calcular ( double notaAnderson, double notaJoaquim,  double notaJoao, double notaMaria, double notaAnderson1) {
+		double media;
+		media = (notaAnderson + notaJoaquim + notaJoao + notaMaria)/5;
+		System.out.println("Amédia do curso foi:" + media);
+	}
+}

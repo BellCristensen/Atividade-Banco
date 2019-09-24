@@ -1,0 +1,12 @@
+public class CalcularMedia {
+
+	void Calcular ( double notaAnderson, double notaJoaquim,  double notaJoao, double notaMaria, double notaAnderson1) {
+		double media;
+		media = (notaAnderson + notaJoaquim + notaJoao + notaMaria)/5;
+		if (media>= 7) {
+			System.out.println("Aluno aprovado com: " + media);
+		}else {
+			System.out.println("Aluno reprovado com: " + media);
+		}
+	}
+}

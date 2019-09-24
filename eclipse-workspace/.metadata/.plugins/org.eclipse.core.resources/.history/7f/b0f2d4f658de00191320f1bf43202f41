@@ -1,0 +1,19 @@
+public class Media {
+	
+	String aluno;
+	String disciplina;
+	String curso;
+	int serie;
+	double nota;
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

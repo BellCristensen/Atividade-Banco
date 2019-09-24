@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class CalcularMedia {
+
+	void Calcular ( String disciplina, double notaAnderson, double notaJoaquim,  double notaJoao, double notaMaria, double notaAnderson1) {
+		double media;
+		media = (notaAnderson + notaJoaquim + notaJoao + notaMaria)/5;
+		JOptionPane.showMessageDialog(null,
+				"Disciplina :" + disciplina +
+				"\nA nota de Anderson em LTP IV foi:" + " " + notaAnderson +
+				"\nA nota de João em LTP IV foi:" + " " + notaJoaquim +
+				"\nA nota de Joaquim em SO foi:" + " " + notaJoao +
+				"\nA nota de Maria em SO foi:" + " " + notaMaria +
+				"\nA nota de Anderson em SO foi:" + " " + notaAnderson1);
+	}
+}

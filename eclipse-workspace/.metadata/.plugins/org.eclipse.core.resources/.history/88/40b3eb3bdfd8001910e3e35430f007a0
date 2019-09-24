@@ -1,0 +1,13 @@
+public class Rotas {
+	public static void main(String[] args) {
+		
+
+	double rota1, rota2, distancia;
+	
+	
+	rota1 = JOptionPane.showInputDialog("Digite a quilometragem da atual do carro");
+	
+	
+
+	}
+}
